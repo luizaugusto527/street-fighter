@@ -1,0 +1,71 @@
+.cta2{
+    width: 100%;
+    height: 100vh;
+    background-color: #F1A90D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hand-icon {
+    margin-top: 5rem;
+}
+.conteudo1 , .conteudo2{
+    text-align: justify;
+}
+.conteudo1 , .conteudo2 p{
+    margin-bottom: 3rem;
+    color:#212529 ;
+    padding: 0 20px;
+    font-size: clamp(1.2rem,5vw,1.5rem);
+    
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+h2{
+    color:#212529 ;
+    font-style: italic;
+    
+}
+
+.button-fight {
+    color: #fff;
+    background-color: #121212;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    cursor: pointer;
+}
+.button-fight:hover{
+    background-color: #212529;
+}
+.button-fight p{
+    margin-left: 0.5rem;
+}
+@media screen and (min-width:790px){
+    .conteudo{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .conteudo1 , .conteudo2{
+        width: 30%;
+        max-width: 380px;
+   
+        
+    }
+    .conteudo2{
+        margin-left: 3rem;
+    }
+}

@@ -1,0 +1,50 @@
+.feedback{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input ,textarea{
+    width: calc(100% - 100px);
+    max-width: 580px;
+    outline: 0;
+    border-width: 0 0 2px;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    
+  }
+  textarea{
+      height: 4rem;
+  }
+  .button{
+    width: calc(100% - 100px);
+    max-width: 580px;
+   
+  }
+  .button > .button-send{
+      width: 6rem;
+      height: 3.5rem;
+      color: #fff;
+      background-color:#F1A90D ;
+      border-radius: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      
+  }
+
+  .button-send:hover{
+      background-color: #eead22;
+  }

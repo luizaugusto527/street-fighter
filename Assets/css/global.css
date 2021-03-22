@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+hr{
+    margin-top: 2rem;
+    width: 20vw;
+    max-width:110px;
+    border-color: #121212;
+    background-color: #121212;
+    height: 3px;
+    display: inline-block;
+}
+ .hand-icon{
+    font-size: 1.5rem;
+   
+}
+ h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-size: clamp(2rem,5vw,3rem);
+    font-style: italic;
+    margin-bottom: 2rem;
+}

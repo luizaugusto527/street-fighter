@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    height: 15rem;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3{
+    margin-top: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.social{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid #fff;
+    border-radius: 100%;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+     
+}
+footer i{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.rede{
+    display: flex;
+}
